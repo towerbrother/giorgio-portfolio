@@ -9,15 +9,9 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div
-      style={{
-        fontFamily: 'system-ui, sans-serif',
-        lineHeight: '1.8',
-        textAlign: 'center',
-      }}
-    >
-      <h1 style={{ fontSize: '48px' }}>Hello world!</h1>
-      <p style={{ fontSize: '36px' }}>My name is Giorgio</p>
+    <div className='text-center'>
+      <h1 className='text-8xl'>Hello world!</h1>
+      <p className='text-5xl'>My name is Giorgio</p>
     </div>
   );
 }
