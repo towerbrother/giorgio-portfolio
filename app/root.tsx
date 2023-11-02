@@ -1,4 +1,4 @@
-import type { LinksFunction } from '@remix-run/node';
+import type { LinksFunction, MetaFunction } from '@remix-run/node';
 import {
   Links,
   LiveReload,
@@ -9,6 +9,9 @@ import {
 } from '@remix-run/react';
 
 import styles from './tailwind.css';
+
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 export const links: LinksFunction = () => {
   return [
@@ -31,6 +34,13 @@ export const links: LinksFunction = () => {
   ];
 };
 
+export const meta: MetaFunction = () => {
+  return [
+    { title: 'Giorgio Torre' },
+    { name: 'description', content: 'My personal portfolio website.' },
+  ];
+};
+
 export default function App() {
   return (
     <html lang='en'>
@@ -41,7 +51,11 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Outlet />
+        <main className='bg-indigo-700'>
+          <Header />
+          <Outlet />
+          <Footer />
+        </main>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
