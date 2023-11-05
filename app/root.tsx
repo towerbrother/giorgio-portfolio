@@ -10,8 +10,15 @@ import {
 
 import styles from './tailwind.css';
 
+import appleTouchIcon from './assets/apple-touch-icon.png';
+import androidChrome384 from './assets/android-chrome-384x384.png';
+import androidChrome192 from './assets/android-chrome-192x192.png';
+
 import Header from './components/Header';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
+
+// TODO - make footer hidden appearing only on hover or scroll to bottom
+// TODO - og image / title / etc when site is ready
 
 export const links: LinksFunction = () => {
   return [
@@ -31,6 +38,9 @@ export const links: LinksFunction = () => {
       crossOrigin: 'anonymous',
     },
     { rel: 'stylesheet', href: styles },
+    { rel: 'icon', sizes: '180x180', href: appleTouchIcon },
+    { rel: 'icon', sizes: '192x192', href: androidChrome192 },
+    { rel: 'icon', sizes: '384x384', href: androidChrome384 },
   ];
 };
 
@@ -50,12 +60,12 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
-        <main className='bg-indigo-700'>
-          <Header />
+      <body className='bg-primary h-screen'>
+        <Header />
+        <main className='px-4 min-[530px]:px-12 sm:px-16 lg:px-36 h-full'>
           <Outlet />
-          <Footer />
         </main>
+        {/* <Footer /> */}
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

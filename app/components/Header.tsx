@@ -10,7 +10,7 @@ const LINKS: Array<LinkType> = [
   { text: 'Experience', slug: '/experience', type: 'link' },
   { text: 'Work', slug: '/work', type: 'link' },
   { text: 'Contact', slug: '/contact', type: 'link' },
-  { text: 'RESUME', slug: '/resume.pdf', type: 'button' },
+  { text: 'Resume', slug: '/resume.pdf', type: 'button' },
 ];
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <header className='relative flex justify-center items-center h-[8vh]'>
+    <header className='relative flex justify-center items-center h-16'>
       <Navbar links={LINKS} toggle={toggle} />
       <Sidebar links={LINKS} isOpen={isOpen} toggle={toggle} />
     </header>

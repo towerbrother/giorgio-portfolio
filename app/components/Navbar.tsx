@@ -1,9 +1,11 @@
-import { NavLink } from '@remix-run/react';
+import { Link, NavLink } from '@remix-run/react';
 import { v4 as uuidv4 } from 'uuid';
 
 import MenuIcon from '~/components/base/MenuIcon';
 
 import type { LinkType } from '~/components/Header';
+
+import logo from '../assets/logo.png';
 
 type NavbarProps = {
   links: Array<LinkType>;
@@ -12,18 +14,22 @@ type NavbarProps = {
 
 const Navbar = ({ links, toggle }: NavbarProps) => {
   return (
-    <div className='flex justify-between items-center w-full h-full px-3'>
-      <div>LOGO</div> {/* TODO */}
-      <nav className='flex flex-row items-center xl:flex-row-reverse'>
+    <div className='flex justify-between items-center w-full h-full px-4'>
+      <Link to='/'>
+        <img src={logo} alt='Logo' width={56} height={56} />
+      </Link>
+      <nav className='flex flex-row items-center md:flex-row-reverse'>
         <MenuIcon iconType='bars' toggle={toggle} />
-        <div className='hidden pr-2 xl:flex xl:items-center'>
+        <div className='hidden pr-2 md:flex md:items-center'>
           {links?.map(({ type, slug, text }) =>
             type === 'link' ? (
               <NavLink
                 className={({ isActive }) =>
                   `${
-                    isActive ? 'text-cyan-600 hover:' : 'text-neutral-800 '
-                  } z-30 flex items-center h-full mx-3 font-bold text-xl hover:opacity-80`
+                    isActive
+                      ? 'border-solid border-b-2 border-secondary'
+                      : 'border-none'
+                  } text-secondary z-30 flex items-center h-full mx-3 text-xl hover:opacity-80`
                 }
                 key={uuidv4()}
                 to={slug}
@@ -34,9 +40,11 @@ const Navbar = ({ links, toggle }: NavbarProps) => {
             ) : (
               <NavLink
                 className={({ isActive }) =>
-                  `${isActive ? 'bg-cyan-600' : 'bg-neutral-800'} z-30 ${
-                    text === 'RSVP' ? 'animate-bounce' : ''
-                  } transition-all duration-200 ease-in-out rounded-md text-neutral-100 font-bold text-xl py-2 px-4 mx-3 hover:opacity-80`
+                  `${
+                    isActive
+                      ? 'bg-secondary text-primary'
+                      : 'bg-transparent text-secondary'
+                  } border-2 border-solid border-secondary z-30 transition-all duration-200 ease-in-out rounded-md text-xl py-1 px-3 mx-3 hover:opacity-80`
                 }
                 key={uuidv4()}
                 to={slug}
