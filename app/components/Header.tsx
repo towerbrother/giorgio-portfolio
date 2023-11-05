@@ -3,7 +3,11 @@ import { useState } from 'react';
 import Navbar from '~/components/Navbar';
 import Sidebar from '~/components/Sidebar';
 
-export type LinkType = { text: string; slug: string; type: 'link' | 'button' };
+export type LinkType = {
+  text: string;
+  slug: string;
+  type: 'link' | 'button';
+};
 
 const LINKS: Array<LinkType> = [
   { text: 'About', slug: '/about', type: 'link' },

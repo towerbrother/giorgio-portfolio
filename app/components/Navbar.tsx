@@ -12,6 +12,8 @@ type NavbarProps = {
   toggle: () => void;
 };
 
+// TODO - add mailto link type to LinkType
+
 const Navbar = ({ links, toggle }: NavbarProps) => {
   return (
     <div className='flex justify-between items-center w-full h-full px-4'>
