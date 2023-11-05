@@ -730,6 +730,11 @@ video {
   border-style: none;
 }
 
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgb(10 25 47 / var(--tw-border-opacity));
+}
+
 .border-secondary {
   --tw-border-opacity: 1;
   border-color: rgb(100 255 218 / var(--tw-border-opacity));
@@ -782,6 +787,10 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
 }
 
 .pr-2 {

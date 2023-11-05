@@ -27,9 +27,9 @@ const Navbar = ({ links, toggle }: NavbarProps) => {
                 className={({ isActive }) =>
                   `${
                     isActive
-                      ? 'border-solid border-b-2 border-secondary'
-                      : 'border-none'
-                  } text-secondary z-30 flex items-center h-full mx-3 text-xl hover:opacity-80`
+                      ? 'border-b-2 border-secondary'
+                      : 'border-b-2 border-primary'
+                  } pb-1 border-solid text-secondary z-30 flex items-center h-full mx-3 text-xl hover:opacity-80`
                 }
                 key={uuidv4()}
                 to={slug}
