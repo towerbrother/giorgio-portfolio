@@ -66,7 +66,7 @@ export default function App() {
       </head>
       <body className='bg-primary h-screen'>
         <Header />
-        <main className='px-4 min-[530px]:px-12 sm:px-16 lg:px-36 h-full'>
+        <main className='px-5 min-[530px]:px-12 sm:px-16 md:px-36 lg:px-48 xl:px-62 2xl:80 h-full'>
           <Outlet />
         </main>
         {/* <Footer /> */}
