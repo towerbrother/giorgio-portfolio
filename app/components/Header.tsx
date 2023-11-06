@@ -10,6 +10,7 @@ export type LinkType = {
 };
 
 const LINKS: Array<LinkType> = [
+  { text: 'Home', slug: '/', type: 'link' },
   { text: 'About', slug: '/about', type: 'link' },
   { text: 'Experience', slug: '/experience', type: 'link' },
   { text: 'Work', slug: '/work', type: 'link' },
