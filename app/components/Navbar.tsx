@@ -29,7 +29,7 @@ const Navbar = ({ links, toggle }: NavbarProps) => {
         return (
           <a
             key={key}
-            className='bg-transparent text-secondary border-2 border-solid border-secondary z-30 transition-all duration-200 ease-in-out text-xl py-0.5 px-2 mx-3 hover:bg-secondary hover:text-primary'
+            className='bg-transparent text-secondary border-2 border-solid border-secondary z-30 transition-all duration-200 ease-in-out text-xl pt-0.5 pb-1 px-2 mx-3 hover:bg-secondary hover:text-primary'
             href={slug}
             rel='noopener noreferrer'
             target='_blank'
