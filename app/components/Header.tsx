@@ -6,14 +6,14 @@ import Sidebar from '~/components/Sidebar';
 export type LinkType = {
   text: string;
   slug: string;
-  type: 'link' | 'button';
+  type: 'link' | 'button' | 'mailto';
 };
 
 const LINKS: Array<LinkType> = [
   { text: 'About', slug: '/about', type: 'link' },
   { text: 'Experience', slug: '/experience', type: 'link' },
   { text: 'Work', slug: '/work', type: 'link' },
-  { text: 'Contact', slug: '/contact', type: 'link' },
+  { text: 'Contact', slug: '/contact', type: 'mailto' },
   { text: 'Resume', slug: '/resume.pdf', type: 'button' },
 ];
 
