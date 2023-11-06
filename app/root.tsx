@@ -66,8 +66,10 @@ export default function App() {
       </head>
       <body className='bg-primary h-screen'>
         <Header />
-        <main className='px-5 min-[530px]:px-12 sm:px-16 md:px-36 lg:px-48 xl:px-62 2xl:80 h-full'>
-          <Outlet />
+        <main className='px-5 min-[530px]:px-12 sm:px-16 md:px-28 lg:px-36 xl:px-48 2xl:62 h-full'>
+          <div className='flex flex-col justify-center'>
+            <Outlet />
+          </div>
         </main>
         {/* <Footer /> */}
         <ScrollRestoration />

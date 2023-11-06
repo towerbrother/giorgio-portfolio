@@ -11,8 +11,10 @@ export const meta: MetaFunction = () => {
 
 export default function Experience() {
   return (
-    <h1 className='text-shade-white text-4xl md:text-6xl lg:text-7xl mb-3'>
-      Experience
-    </h1>
+    <div className='my-6 md:my-12'>
+      <h1 className='text-shade-white text-4xl md:text-5xl lg:text-7xl mb-3 md:mb-5 lg:mb-8'>
+        Where I've Worked
+      </h1>
+    </div>
   );
 }

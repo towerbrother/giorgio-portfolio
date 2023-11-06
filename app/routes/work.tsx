@@ -11,8 +11,10 @@ export const meta: MetaFunction = () => {
 
 export default function Work() {
   return (
-    <h1 className='text-shade-white text-4xl md:text-6xl lg:text-7xl mb-3'>
-      Work
-    </h1>
+    <div className='my-6 md:my-12'>
+      <h1 className='text-shade-white text-4xl md:text-5xl lg:text-7xl mb-3 md:mb-5 lg:mb-8'>
+        Some Things I've Built
+      </h1>
+    </div>
   );
 }
