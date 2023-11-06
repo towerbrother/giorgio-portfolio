@@ -13,6 +13,8 @@ import styles from './tailwind.css';
 import appleTouchIcon from './assets/apple-touch-icon.png';
 import androidChrome384 from './assets/android-chrome-384x384.png';
 import androidChrome192 from './assets/android-chrome-192x192.png';
+import favicon16 from './assets/favicon-16x16.png';
+import favicon32 from './assets/favicon-32x32.png';
 
 import Header from './components/Header';
 // import Footer from './components/Footer';
@@ -38,9 +40,11 @@ export const links: LinksFunction = () => {
       crossOrigin: 'anonymous',
     },
     { rel: 'stylesheet', href: styles },
-    { rel: 'icon', sizes: '180x180', href: appleTouchIcon },
+    { rel: 'apple-touch-icon', sizes: '180x180', href: appleTouchIcon },
     { rel: 'icon', sizes: '192x192', href: androidChrome192 },
     { rel: 'icon', sizes: '384x384', href: androidChrome384 },
+    { rel: 'icon', sizes: '16x16', href: favicon16 },
+    { rel: 'icon', sizes: '32x32', href: favicon32 },
   ];
 };
 

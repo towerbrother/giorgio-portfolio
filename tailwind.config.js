@@ -6,8 +6,8 @@ module.exports = {
     },
     colors: {
       transparent: 'transparent',
-      primary: '#160333',
-      secondary: '#d39ffc',
+      primary: '#1C3B4F',
+      secondary: '#E7762B',
       'shade-white': '#e8edfc',
       'light-gray': '#9299ad',
     },
