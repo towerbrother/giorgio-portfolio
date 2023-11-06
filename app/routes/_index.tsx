@@ -12,7 +12,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div className='h-full flex flex-col justify-center'>
-      <h2 className='text-secondary text-base mb-4 md:mb-8'>Hi, my name is</h2>
+      <h2 className='text-secondary text-base mb-4 md:mb-6'>Hi, my name is</h2>
       <h1 className='text-shade-white text-4xl md:text-6xl lg:text-7xl mb-3'>
         Giorgio Torre.
       </h1>
