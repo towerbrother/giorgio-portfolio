@@ -21,6 +21,7 @@ import Header from './components/Header';
 
 // TODO - make footer hidden appearing only on hover or scroll to bottom
 // TODO - og image / title / etc when site is ready
+// TODO - add link to next page (UX)
 
 export const links: LinksFunction = () => {
   return [
