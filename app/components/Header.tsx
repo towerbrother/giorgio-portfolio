@@ -9,7 +9,9 @@ export type LinkType = {
   type: 'link' | 'button' | 'mailto';
 };
 
-const LINKS: Array<LinkType> = [
+export const HEADER_HEIGHT = 16;
+
+const NAV_LINKS: Array<LinkType> = [
   { text: 'Home', slug: '/', type: 'link' },
   { text: 'About', slug: '/about', type: 'link' },
   { text: 'Experience', slug: '/experience', type: 'link' },
@@ -23,9 +25,11 @@ const Header = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <header className='relative flex justify-center items-center h-16'>
-      <Navbar links={LINKS} toggle={toggle} />
-      <Sidebar links={LINKS} isOpen={isOpen} toggle={toggle} />
+    <header
+      className={`relative flex justify-center items-center h-${HEADER_HEIGHT}`}
+    >
+      <Navbar links={NAV_LINKS} toggle={toggle} />
+      <Sidebar links={NAV_LINKS} isOpen={isOpen} toggle={toggle} />
     </header>
   );
 };

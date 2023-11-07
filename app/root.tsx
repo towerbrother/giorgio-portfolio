@@ -16,7 +16,7 @@ import androidChrome192 from './assets/android-chrome-192x192.png';
 import favicon16 from './assets/favicon-16x16.png';
 import favicon32 from './assets/favicon-32x32.png';
 
-import Header from './components/Header';
+import Header, { HEADER_HEIGHT } from './components/Header';
 // import Footer from './components/Footer';
 
 // TODO - make footer hidden appearing only on hover or scroll to bottom
@@ -67,7 +67,11 @@ export default function App() {
       </head>
       <body className='bg-primary h-screen'>
         <Header />
-        <main className='px-5 min-[530px]:px-12 sm:px-16 md:px-28 lg:px-36 xl:px-48 2xl:62 h-full'>
+        <main
+          className={`px-5 min-[530px]:px-12 sm:px-16 md:px-28 lg:px-32 xl:px-48 2xl:62 h-[calc(100vh - ${
+            HEADER_HEIGHT * 4
+          }px)`}
+        >
           <div className='flex flex-col justify-center'>
             <Outlet />
           </div>

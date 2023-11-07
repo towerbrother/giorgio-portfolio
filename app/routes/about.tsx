@@ -14,7 +14,7 @@ export const meta: MetaFunction = () => {
 
 export default function About() {
   return (
-    <div className='my-6 md:my-12 lg:my-36'>
+    <div className='my-6 md:my-8 lg:mt-8 lg:mb-6 xl:mb-0 xl:mt-36'>
       <h1 className='text-shade-white text-4xl md:text-5xl lg:text-7xl mb-3 md:mb-5 lg:mb-8'>
         About Me
       </h1>
