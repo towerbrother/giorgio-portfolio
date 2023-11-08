@@ -6,8 +6,12 @@ import slugify from '~/utils/slugify';
 
 type ContentType = {
   heading: string;
-  date: string;
+  subheading: string;
   bullets: string[];
+  links?: Array<{
+    icon: string;
+    slug: string;
+  }>;
 };
 
 export type TabType = {
@@ -53,20 +57,29 @@ export default TabMenu;
 
 const Content = ({
   heading,
-  date,
+  subheading,
   bullets,
   shouldShow,
 }: ContentType & { shouldShow: boolean }) => (
   <div
     className={`${
       shouldShow ? 'block' : 'hidden'
-    } max-w-full lg:max-w-[80%] xl:max-w-[70%]`}
+    } max-w-full lg:max-w-[70%] xl:max-w-[60%]`}
   >
-    <h3>{heading}</h3>
-    <p>{date}</p>
-    <ul>
+    <h3 className='text-left text-lg md:text-2xl text-shade-white'>
+      {heading}
+    </h3>
+    <h5 className='text-left text-sm md:text-md text-secondary'>
+      {subheading}
+    </h5>
+    <ul className='text-light-gray text-md md:text-lg mt-2'>
       {bullets.map((bullet, idx) => (
-        <li key={bullet.slice(0, 5) + idx}>{bullet}</li>
+        <li
+          key={bullet.slice(0, 5) + idx}
+          className='list-disc list-inside mb-2 md:mb-3'
+        >
+          {bullet}
+        </li>
       ))}
     </ul>
   </div>

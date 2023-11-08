@@ -25,7 +25,11 @@ const TabSelector = ({
         <Button
           key={slug}
           onClick={() => setSelectedTabKey(slug || '')}
-          className={isSelectedOption(slug || '') ? 'selected' : undefined} // use Tailwind
+          className={`text-left text-md md:text-xl py-1 lg:py-3 px-1 lg:pl-4 lg:pr-0 border-l-2 ${
+            isSelectedOption(slug || '')
+              ? 'border-secondary text-secondary'
+              : 'border-light-gray text-light-gray hover:text-secondary'
+          }`}
         >
           {displayName}
         </Button>
