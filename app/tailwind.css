@@ -619,6 +619,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -643,8 +647,16 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-\[25vh\] {
-  margin-top: 25vh;
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-\[20vh\] {
+  margin-top: 20vh;
 }
 
 .mt-auto {
@@ -744,8 +756,16 @@ video {
   gap: 1.5rem;
 }
 
+.overflow-scroll {
+  overflow: scroll;
+}
+
 .overflow-y-scroll {
   overflow-y: scroll;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .rounded-lg {
@@ -758,10 +778,6 @@ video {
 
 .border-b-2 {
   border-bottom-width: 2px;
-}
-
-.border-l-2 {
-  border-left-width: 2px;
 }
 
 .border-solid {
@@ -799,11 +815,6 @@ video {
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
 }
 
 .px-2 {
@@ -949,6 +960,11 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.hover\:border-secondary:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(231 118 43 / var(--tw-border-opacity));
+}
+
 .hover\:bg-secondary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(231 118 43 / var(--tw-bg-opacity));
@@ -1004,8 +1020,8 @@ video {
     margin-bottom: 1.5rem;
   }
 
-  .md\:mt-\[30vh\] {
-    margin-top: 30vh;
+  .md\:mt-\[25vh\] {
+    margin-top: 25vh;
   }
 
   .md\:flex {
@@ -1069,11 +1085,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:my-12 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1088,6 +1099,14 @@ video {
 
   .lg\:mb-8 {
     margin-bottom: 2rem;
+  }
+
+  .lg\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .lg\:mt-8 {
@@ -1108,6 +1127,18 @@ video {
 
   .lg\:gap-12 {
     gap: 3rem;
+  }
+
+  .lg\:overflow-auto {
+    overflow: auto;
+  }
+
+  .lg\:border-b-0 {
+    border-bottom-width: 0px;
+  }
+
+  .lg\:border-l-2 {
+    border-left-width: 2px;
   }
 
   .lg\:px-32 {
@@ -1140,9 +1171,9 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+  .xl\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .xl\:mb-0 {

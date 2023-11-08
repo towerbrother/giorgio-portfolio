@@ -6,9 +6,10 @@ import { Link } from '@remix-run/react';
 
 export const meta: MetaFunction = () => {
   return [
+    { title: 'About Me' },
     {
       name: 'description',
-      content: 'About page - Giorgio Torre portfolio',
+      content: 'About Page - Giorgio Torre portfolio',
     },
   ];
 };
@@ -16,7 +17,7 @@ export const meta: MetaFunction = () => {
 export default function About() {
   return (
     <>
-      <div className='my-6 md:my-8 lg:mt-8 lg:mb-0 xl:mt-28'>
+      <div className='mt-8 mb-4 lg:mt-16 lg:mb-0 xl:mt-28'>
         <h1 className='text-shade-white text-4xl md:text-5xl lg:text-7xl mb-3 md:mb-5 lg:mb-8'>
           About Me
         </h1>
@@ -64,7 +65,7 @@ export default function About() {
       </div>
       <Link
         to='/experience'
-        className='max-w-max my-6 xl:my-10 bg-transparent text-secondary border-2 border-solid border-secondary z-30 transition-all duration-200 ease-in-out text-xl py-2 px-3 hover:bg-secondary hover:text-primary'
+        className='max-w-max mt-3 mb-12 lg:mt-6 bg-transparent text-secondary border-2 border-solid border-secondary z-30 transition-all duration-200 ease-in-out text-xl py-2 px-3 hover:bg-secondary hover:text-primary'
       >
         Where I've Worked
       </Link>

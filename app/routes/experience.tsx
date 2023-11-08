@@ -6,9 +6,10 @@ import TabMenu from '~/components/TabMenu';
 
 export const meta: MetaFunction = () => {
   return [
+    { title: "Where I've Worked" },
     {
       name: 'description',
-      content: 'Experience page - Giorgio Torre portfolio',
+      content: 'Experience Page - Giorgio Torre portfolio',
     },
   ];
 };
@@ -63,7 +64,7 @@ export default function Experience() {
       </div>
       <Link
         to='/projects'
-        className='max-w-max my-6 xl:my-10 bg-transparent text-secondary border-2 border-solid border-secondary z-30 transition-all duration-200 ease-in-out text-xl py-2 px-3 hover:bg-secondary hover:text-primary'
+        className='max-w-max mt-3 mb-12 lg:mt-6 bg-transparent text-secondary border-2 border-solid border-secondary z-30 transition-all duration-200 ease-in-out text-xl py-2 px-3 hover:bg-secondary hover:text-primary'
       >
         Some Things I've Built
       </Link>

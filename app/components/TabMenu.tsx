@@ -8,6 +8,7 @@ type ContentType = {
   heading: string;
   subheading: string;
   bullets: string[];
+  imageUrl?: string;
   links?: Array<{
     icon: string;
     slug: string;
