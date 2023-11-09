@@ -21,7 +21,6 @@ import Header, { HEADER_HEIGHT } from './components/Header';
 
 // TODO - make footer hidden appearing only on hover or scroll to bottom
 // TODO - og image / title / etc when site is ready
-// TODO - projects add image and links - image in bg + bullets in a div
 
 export const links: LinksFunction = () => {
   return [
