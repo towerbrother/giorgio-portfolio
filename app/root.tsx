@@ -15,12 +15,12 @@ import androidChrome384 from './assets/android-chrome-384x384.png';
 import androidChrome192 from './assets/android-chrome-192x192.png';
 import favicon16 from './assets/favicon-16x16.png';
 import favicon32 from './assets/favicon-32x32.png';
+import portfolio from './assets/portfolio.png';
 
 import Header, { HEADER_HEIGHT } from './components/Header';
 // import Footer from './components/Footer';
 
 // TODO - make footer hidden appearing only on hover or scroll to bottom
-// TODO - og image / title / etc when site is ready
 
 export const links: LinksFunction = () => {
   return [
@@ -51,7 +51,21 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => {
   return [
     { title: 'Giorgio Torre' },
-    { name: 'description', content: 'My personal portfolio website.' },
+    {
+      name: 'description',
+      content: 'Giorgio Torre personal portfolio website.',
+    },
+    { name: 'og:title', content: 'Giorgio Torre' },
+    {
+      name: 'og:description',
+      content: 'Giorgio Torre personal portfolio website.',
+    },
+    { name: 'og:image', content: portfolio },
+    { name: 'og:type', content: 'website' },
+    {
+      name: 'og:url',
+      content: 'https://giorgio-portfolio-towerbrother.vercel.app/',
+    },
   ];
 };
 
