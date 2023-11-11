@@ -18,7 +18,7 @@ import favicon32 from './assets/favicon-32x32.png';
 import portfolio from './assets/portfolio.png';
 
 import Header, { HEADER_HEIGHT } from './components/Header';
-import Footer from './components/Footer';
+import Footer, { FOOTER_HEIGHT } from './components/Footer';
 
 // TODO - take care of content
 // TODO - change URL in all projects
@@ -82,8 +82,8 @@ export default function App() {
       <body className='bg-primary h-screen flex flex-col justify-between'>
         <Header />
         <main
-          className={`px-5 min-[530px]:px-12 sm:px-16 md:px-28 lg:px-32 xl:px-48 2xl:62 h-[calc(100vh - ${
-            HEADER_HEIGHT * 4
+          className={`px-5 min-[530px]:px-10 sm:px-16 md:px-28 lg:px-32 xl:px-48 2xl:62 h-[calc(100vh - ${
+            (HEADER_HEIGHT + FOOTER_HEIGHT) * 4
           }px)`}
         >
           <div className='flex flex-col justify-center'>

@@ -586,10 +586,6 @@ video {
   top: 2rem;
 }
 
-.left-\[50\%\] {
-  left: 50%;
-}
-
 .z-30 {
   z-index: 30;
 }
@@ -669,10 +665,6 @@ video {
 
 .mt-\[20vh\] {
   margin-top: 20vh;
-}
-
-.mt-auto {
-  margin-top: auto;
 }
 
 .block {
@@ -1056,9 +1048,9 @@ video {
 }
 
 @media (min-width: 530px) {
-  .min-\[530px\]\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
+  .min-\[530px\]\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 }
 
