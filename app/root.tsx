@@ -21,6 +21,8 @@ import Header, { HEADER_HEIGHT } from './components/Header';
 // import Footer from './components/Footer';
 
 // TODO - make footer hidden appearing only on hover or scroll to bottom
+// TODO - take care of content
+// TODO - change URL in all projects
 
 export const links: LinksFunction = () => {
   return [

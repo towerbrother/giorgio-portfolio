@@ -1,7 +1,6 @@
 import { FaBars, FaTimes } from 'react-icons/fa/index.js';
 
 import Button from '~/components/base/Button';
-import ConditionalWrapper from '~/components/base/ConditionalWrapper';
 
 type MenuIconProps = {
   iconType: 'bars' | 'cross';
@@ -20,12 +19,10 @@ const MenuIcon = ({
     } ml-2 md:hidden`}
   >
     <Button className='relative z-30' onClick={toggle}>
-      <ConditionalWrapper condition={iconType === 'bars'}>
+      {iconType === 'bars' && (
         <FaBars className='text-3xl text-secondary hover:opacity-80 md:text-4xl' />
-      </ConditionalWrapper>
-      <ConditionalWrapper condition={iconType === 'cross'}>
-        <FaTimes className='text-secondary text-4xl' />
-      </ConditionalWrapper>
+      )}
+      {iconType === 'cross' && <FaTimes className='text-secondary text-4xl' />}
     </Button>
   </div>
 );
