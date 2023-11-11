@@ -586,6 +586,10 @@ video {
   top: 2rem;
 }
 
+.left-\[50\%\] {
+  left: 50%;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -760,6 +764,10 @@ video {
   justify-content: flex-start;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -839,6 +847,10 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-0 {

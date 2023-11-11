@@ -1,13 +1,13 @@
 const Footer = () => (
-  <footer className='flex justify-center items-center mt-auto h-auto'>
+  <footer className='flex justify-end h-auto p-4'>
     <a
-      className='text-shade-white hover:text-secondary'
+      className='text-sm md:text-md text-light-gray hover:text-secondary'
       href='https://github.com/towerbrother'
       title='Github towerbrother'
       target='_blank'
       rel='noreferrer'
     >
-      Designed &amp; Built by Giorgio Torre
+      Designed &amp; built by Giorgio Torre
     </a>
   </footer>
 );
