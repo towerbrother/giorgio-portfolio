@@ -20,9 +20,6 @@ import portfolio from './assets/portfolio.png';
 import Header, { HEADER_HEIGHT } from './components/Header';
 import Footer, { FOOTER_HEIGHT } from './components/Footer';
 
-// TODO - take care of content
-// TODO - change URL in all projects
-
 export const links: LinksFunction = () => {
   return [
     {
