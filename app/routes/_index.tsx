@@ -6,15 +6,15 @@ export const meta: MetaFunction = () => {
     { title: 'Giorgio Torre' },
     {
       name: 'description',
-      content: 'Homepage - Giorgio Torre portfolio ',
+      content: 'Homepage - Giorgio Torre portfolio.',
     },
   ];
 };
 
 export default function Index() {
   return (
-    <>
-      <div className='mt-[10vh] md:mt-[25vh]'>
+    <div className='flex flex-col justify-start xl:ml-[5vw]'>
+      <div className='mt-[10vh] md:mt-[20vh]'>
         <h2 className='text-secondary text-base mb-4 md:mb-6'>
           Hi, my name is
         </h2>
@@ -25,9 +25,9 @@ export default function Index() {
           I build stuff for the web.
         </h3>
         <p className='text-light-gray text-md md:text-xl max-w-sm md:max-w-lg'>
-          I’m a software developer specialising in building exceptional digital
-          experiences. Currently, I’m focusing on building a multi-portal
-          solution at{' '}
+          I’m a software developer specialising in building reliable and user
+          friendly digital experiences. Currently, I’m focusing on building a
+          multi-portal solution at{' '}
           <a
             className='text-secondary hover:opacity-80'
             href='https://tenhil.de/'
@@ -46,6 +46,6 @@ export default function Index() {
       >
         About Me
       </Link>
-    </>
+    </div>
   );
 }

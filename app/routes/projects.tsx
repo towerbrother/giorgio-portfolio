@@ -47,7 +47,7 @@ const PROJECTS_TABS: TabType[] = [
       heading: 'Personal Portfolio',
       subheading: 'Remix / Tailwind / Typescript / Vercel',
       bullets: [
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'Crafted this website as my digital resume. Minimalist vibes, powered by Remix and styled with Tailwind. No frills, just speedy delivery to the world. Hope it sparks inspiration!',
       ],
       imageUrl: portfolio,
       links: [
@@ -68,7 +68,7 @@ const PROJECTS_TABS: TabType[] = [
       heading: 'Weather App',
       subheading: 'React / SASS / OpenWeatherAPI',
       bullets: [
-        'A weather app build with React Javascript library fetching current and forecast data from the OpenWeatherMap API. The app allows users to fetch current and forecast data for the 5 days following the day the request is made. The app allows temperatures to be shown in metric as well as imperial unit measure system.',
+        "Built using the React JavaScript library, this weather app fetches current and forecast data from the OpenWeatherMap API. Users can retrieve weather info for the next 5 days, with the flexibility to view temperatures in both metric and imperial units. It's your go-to for quick, accurate weather updates!",
       ],
       imageUrl: weather,
       links: [
@@ -86,7 +86,7 @@ const PROJECTS_TABS: TabType[] = [
       heading: 'JavaScript Calculator',
       subheading: 'HTML / CSS / Javascript',
       bullets: [
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        "My calculator, crafted with HTML, CSS, and Vanilla Javascript, features a display with an x-axis scrollbar to manage overflow. The keypad includes four types of keys: Operators, Numbers, Decimal, and Clear. Each key has a click event listener triggering specific methods, updating the display through the updateDisplay() method. Utilising a state object, I track clicked keys, displayed values, and operands. The waitingForSecondOperand flag guides the app's behaviour based on whether the first operand and operator were already inserted. The reset() method restores the state to its initial values. Users can click operators in sequence, and the state handles it smoothly. However, decimals can't be the first value or added when one is already displayed.",
       ],
       imageUrl: calculator,
       links: [
@@ -107,7 +107,7 @@ const PROJECTS_TABS: TabType[] = [
       heading: 'Waves Music App',
       subheading: 'HTML / CSS / Javascript',
       bullets: [
-        'A music app build with React Javascript library fetching copyright free music from chillhop.com. The app allows users to listen to music. Only a few track are available. Tracks can be selected, the user can skip forward and backward. A list of available songs is reachable using the "library" button. The app is fully responsive and it ensures a pleasant UX using mobile, tablet or desktop devices.',
+        'This React-powered music app pulls in copyright-free tunes from chillhop.com. Enjoy a curated selection of tracks, skip forward and backward, and explore the playlist through the Library button. Whether on mobile, tablet, or desktop, the fully responsive design guarantees a delightful user experience. [Credit to DevEd]',
       ],
       imageUrl: music,
       links: [
@@ -128,7 +128,7 @@ const PROJECTS_TABS: TabType[] = [
       heading: 'JavaScript Drumkit',
       subheading: 'HTML / CSS / Javascript',
       bullets: [
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'This drumkit app, constructed with HTML, CSS, and Vanilla Javascript, responds to keydown events. When a displayed key is pressed, it plays a corresponding sound. The playSound method enables users to press a key multiple times, restarting the sound each time. [Credit to Wes Bos]',
       ],
       imageUrl: drumkit,
       links: [
@@ -149,7 +149,7 @@ const PROJECTS_TABS: TabType[] = [
       heading: 'Indecision App',
       subheading: 'React / SASS / Javascript',
       bullets: [
-        'A simple application built with React Javascript library that allows the end user(s) to chose among different options in a randomised way. The app was developed as part of a ReactJS tutorial. The tutorial featured usage of React class components to manage state. I refactored the source code using Hooks to align it with modern best practices.',
+        'A no-nonsense application crafted with the ReactJS library, empowering users to make randomised choices among various options. Originally part of a ReactJS tutorial utilising class components for state management, I took it a step further, refactoring the source code with Hooks to align it with best practices.',
       ],
       imageUrl: indecision,
       links: [
@@ -176,7 +176,7 @@ const PROJECTS_TABS: TabType[] = [
       links: [
         {
           type: 'code',
-          url: 'https://github.com/towerbrother/JS-drumkit',
+          url: 'https://github.com/towerbrother/JS-clock',
         },
         {
           type: 'demo',

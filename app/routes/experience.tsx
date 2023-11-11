@@ -9,7 +9,7 @@ export const meta: MetaFunction = () => {
     { title: "Where I've Worked" },
     {
       name: 'description',
-      content: 'Experience Page - Giorgio Torre portfolio',
+      content: 'Experience Page - Giorgio Torre portfolio.',
     },
   ];
 };
@@ -19,11 +19,11 @@ const EXPERIENCE_TABS: TabType[] = [
     displayName: 'Tenhil',
     content: {
       heading: 'Software Developer',
-      subheading: 'Jan 2023 - Present',
+      subheading: 'January 2023 - Present',
       bullets: [
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'During my tenure at Tenhil, the parent company of stellenanzeigen.de, I assumed a pivotal role within a newly-formed team entrusted with the ground-up development of a transformative project. The objective was to create a versatile platform capable of constructing multiple portals using a unified code base and a shared CMS system. This initiative aimed not only to manage content efficiently but also to facilitate distinct theming for each portal. I actively participated in the initial discussions to define our tech stack and the project architecture.',
+        'My contribution to the team was diverse and impactful. Assuming a lead role in decision-making, I established coding standards and ensured that high-quality code was consistently produced. Despite joining as a frontend developer, I leveraged my C# proficiency to assist the backend team, boosting our overall development velocity. Building a strong rapport with the project PO, I facilitated direct communication between management and developers, fostering a collaborative and efficient work environment.',
+        'As my involvement deepened, I was entrusted with additional responsibilities. Beyond my role as a frontend developer, I temporarily assumed the position of content manager. This transition allowed me to gain a profound understanding of the challenges faced in the portal-building process. Drawing on this insight, I proposed user stories to enhance efficiency and intuitiveness, in addition to identifying and rectifying bugs. This holistic involvement showcases my adaptability and commitment to ensuring the success of the project.',
       ],
     },
   },
@@ -31,11 +31,11 @@ const EXPERIENCE_TABS: TabType[] = [
     displayName: 'stellenanzeigen.de',
     content: {
       heading: 'Junior Software Developer',
-      subheading: 'Jun 2021 - Dec 2022',
+      subheading: 'June 2021 - December 2022',
       bullets: [
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'Embarking on my career journey, I began as a junior software developer at stellenanzeigen.de, marking my initiation into the world of web development. Joining the core team responsible for the legacy website, coded in C# using the .NET Core framework with jQuery as the scripting language. I had never programmed in C#, nor in jQuery, so I had to quickly familiarise myself with these programming languages and their usage in a professional setting.',
+        'Within the dynamic environment of the core team, I navigated the nuances of agile methodology in real-world scenarios. Embracing practices like Scrum processes, sprints, code reviews, and pull requests, I gained firsthand experience in agile development. My initial responsibilities included familiarising myself with the existing code base, addressing minor bugs, and gradually progressing to working on full-fledged features.',
+        "I have also played a significant role in developing a separate console project aimed at expediting the seeding process of our CMS system with pre-existing content. This hands-on experience, not only enhanced my technical skills in C#, but also honed my ability to contribute meaningfully to the team's objectives in addition to planned features for the main website.",
       ],
     },
   },
@@ -43,11 +43,11 @@ const EXPERIENCE_TABS: TabType[] = [
     displayName: 'Bombardier',
     content: {
       heading: 'Project Commercial Manager',
-      subheading: 'Sept 2016 - May 2021',
+      subheading: 'September 2016 - May 2021',
       bullets: [
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'Serving as the Project Commercial Manager for a transportation company, I effectively oversaw three distinct projects spanning multiple railway depots. My responsibilities included the management of maintenance contracts with substantial financial implications, ensuring both operational efficiency and cost-effectiveness.',
+        "Taking charge of negotiations and contract drafting, I successfully navigated the complexities of additional maintenance tasks. Whether initiated by my team or arising from requests by the customer (train operator), I orchestrated agreements that safeguarded the integrity of the project and protected the company's interests. This multifaceted approach not only ensured the seamless flow of projects but also fortified relationships with our clients.",
+        "At the heart of my responsibilities was the protection of projects and the company from service penalties. I meticulously formulated strategies to mitigate risks and uphold contractual obligations. Simultaneously, I cultivated positive and collaborative relationships with customers, contributing to the company's reputation for reliability and professionalism in the transportation services sector.",
       ],
     },
   },
@@ -56,7 +56,7 @@ const EXPERIENCE_TABS: TabType[] = [
 export default function Experience() {
   return (
     <>
-      <div className='my-6 md:my-8 lg:mt-8 lg:mb-6 xl:mb-0 xl:mt-36'>
+      <div className='my-6 md:my-8 lg:mt-8 lg:mb-6 xl:mb-0 xl:mt-23'>
         <h1 className='text-shade-white text-4xl md:text-5xl lg:text-7xl mb-3 md:mb-5 lg:mb-8'>
           Where I've Worked
         </h1>

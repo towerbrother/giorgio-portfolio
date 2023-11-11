@@ -79,7 +79,7 @@ export default function App() {
       <body className='bg-primary h-screen flex flex-col justify-between'>
         <Header />
         <main
-          className={`px-5 min-[530px]:px-10 sm:px-16 md:px-28 lg:px-32 xl:px-48 2xl:62 h-[calc(100vh - ${
+          className={`px-4 min-[530px]:px-10 sm:px-16 md:px-24 lg:px-28 xl:px-32 2xl:px-36 h-[calc(100vh - ${
             (HEADER_HEIGHT + FOOTER_HEIGHT) * 4
           }px)`}
         >

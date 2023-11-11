@@ -9,7 +9,7 @@ export const meta: MetaFunction = () => {
     { title: 'About Me' },
     {
       name: 'description',
-      content: 'About Page - Giorgio Torre portfolio',
+      content: 'About Page - Giorgio Torre portfolio.',
     },
   ];
 };

@@ -59,7 +59,7 @@ const Navbar = ({ links, toggle }: NavbarProps) => {
   };
 
   return (
-    <div className='flex justify-between items-center w-full h-full px-4'>
+    <div className='flex justify-between items-center w-full h-full px-3'>
       <Link to='/' className='hover:opacity-90'>
         <img src={logo} alt='Logo' width={56} height={56} />
       </Link>
