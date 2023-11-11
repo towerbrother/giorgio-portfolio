@@ -663,8 +663,8 @@ video {
   margin-top: 2rem;
 }
 
-.mt-\[20vh\] {
-  margin-top: 20vh;
+.mt-\[10vh\] {
+  margin-top: 10vh;
 }
 
 .block {
@@ -754,10 +754,6 @@ video {
 
 .justify-start {
   justify-content: flex-start;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .justify-center {
@@ -883,6 +879,16 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pb-1 {
@@ -1121,6 +1127,10 @@ video {
 
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
   }
 
   .md\:p-4 {

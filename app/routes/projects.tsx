@@ -190,7 +190,7 @@ const PROJECTS_TABS: TabType[] = [
 export default function Work() {
   return (
     <>
-      <div className='my-6 md:my-8 lg:mt-8 lg:mb-6 xl:mb-0 xl:mt-36'>
+      <div className='my-6 md:my-8 lg:mt-8 lg:mb-6 xl:mb-0 xl:mt-28'>
         <h1 className='text-shade-white text-4xl md:text-5xl lg:text-7xl mb-3 md:mb-5 lg:mb-8'>
           Some Things I've Built
         </h1>
@@ -198,7 +198,7 @@ export default function Work() {
       </div>
       <a
         href='mailto:giorgio.torre8@gmail.com'
-        className='max-w-max mt-3 mb-12 lg:mt-8 bg-transparent text-secondary border-2 border-solid border-secondary z-30 transition-all duration-200 ease-in-out text-xl py-2 px-3 hover:bg-secondary hover:text-primary'
+        className='max-w-max mt-3 mb-12 xl:mb-0 lg:mt-8 bg-transparent text-secondary border-2 border-solid border-secondary z-30 transition-all duration-200 ease-in-out text-xl py-2 px-3 hover:bg-secondary hover:text-primary'
       >
         Get In Contact
       </a>

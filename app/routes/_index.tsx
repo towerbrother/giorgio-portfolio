@@ -14,7 +14,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <>
-      <div className='mt-[20vh] md:mt-[25vh]'>
+      <div className='mt-[10vh] md:mt-[25vh]'>
         <h2 className='text-secondary text-base mb-4 md:mb-6'>
           Hi, my name is
         </h2>
