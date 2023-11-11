@@ -54,6 +54,14 @@ export default function About() {
                 <li className='list-disc list-inside mb-2 md:mb-3'>Node.js</li>
                 <li className='list-disc list-inside mb-2 md:mb-3'>Redux</li>
               </div>
+              <div>
+                <li className='list-disc list-inside mb-2 md:mb-3'>
+                  Remix.run
+                </li>
+                <li className='list-disc list-inside mb-2 md:mb-3'>
+                  C# / .NET 7
+                </li>
+              </div>
             </ul>
           </div>
           <img
