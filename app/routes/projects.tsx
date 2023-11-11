@@ -86,7 +86,7 @@ const PROJECTS_TABS: TabType[] = [
       heading: 'JavaScript Calculator',
       subheading: 'HTML / CSS / Javascript',
       bullets: [
-        "My calculator, crafted with HTML, CSS, and Vanilla Javascript, features a display with an x-axis scrollbar to manage overflow. The keypad includes four types of keys: Operators, Numbers, Decimal, and Clear. Each key has a click event listener triggering specific methods, updating the display through the updateDisplay() method. Utilising a state object, I track clicked keys, displayed values, and operands. The waitingForSecondOperand flag guides the app's behaviour based on whether the first operand and operator were already inserted. The reset() method restores the state to its initial values. Users can click operators in sequence, and the state handles it smoothly. However, decimals can't be the first value or added when one is already displayed.",
+        "My calculator, crafted with HTML, CSS, and Vanilla Javascript, features a display with an x-axis scrollbar to manage overflow. The keypad includes all usual keys. Each key has a click event listener triggering specific methods. Utilising a state object, I track clicked keys, displayed values, and operands. The waitingForSecondOperand flag guides the app's behaviour based on whether the first operand and operator were already inserted. The reset() method restores the state. Users can click operators in sequence, and the state handles it smoothly.",
       ],
       imageUrl: calculator,
       links: [
