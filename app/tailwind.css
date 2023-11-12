@@ -586,6 +586,10 @@ video {
   top: 2rem;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -1177,6 +1181,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:static {
+    position: static;
+  }
+
   .lg\:mb-0 {
     margin-bottom: 0px;
   }

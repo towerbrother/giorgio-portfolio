@@ -1,5 +1,5 @@
 import type { Dispatch, SetStateAction } from 'react';
-import { useCallback } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import type { TabType } from '../TabMenu';
 import Button from './Button';
 
@@ -19,8 +19,32 @@ const TabSelector = ({
     [selectedTabKey]
   );
 
+  const [offsetTop, setOffsetTop] = useState(0);
+  const [isFixed, setIsFixed] = useState(false);
+
+  const handleScroll = useCallback(() => {
+    setIsFixed(window.scrollY >= offsetTop);
+  }, [offsetTop]);
+
+  useEffect(() => {
+    setOffsetTop(
+      (document.querySelector('#tab-selector') as HTMLElement).offsetTop
+    );
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [handleScroll]);
+
   return (
-    <div className='flex flex-row lg:flex-col overflow-scroll lg:overflow-auto whitespace-nowrap'>
+    <div
+      id='tab-selector'
+      className={`flex flex-row lg:flex-col overflow-scroll lg:overflow-auto whitespace-nowrap bg-primary ${
+        isFixed ? 'fixed top-0 z-10' : 'static'
+      } lg:static`}
+    >
       {tabSelectors.map(({ slug, displayName }) => (
         <Button
           key={slug}
