@@ -20,10 +20,10 @@ const TabSelector = ({
   );
 
   const [offsetTop, setOffsetTop] = useState(0);
-  const [isFixed, setIsFixed] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
 
   const handleScroll = useCallback(() => {
-    setIsFixed(window.scrollY >= offsetTop);
+    setIsSticky(window.scrollY >= offsetTop);
   }, [offsetTop]);
 
   useEffect(() => {
@@ -42,7 +42,7 @@ const TabSelector = ({
     <div
       id='tab-selector'
       className={`flex flex-row lg:flex-col overflow-scroll lg:overflow-auto whitespace-nowrap bg-primary ${
-        isFixed ? 'fixed top-0 z-10' : 'static'
+        isSticky ? 'sticky top-0 z-10' : 'static'
       } lg:static`}
     >
       {tabSelectors.map(({ slug, displayName }) => (
