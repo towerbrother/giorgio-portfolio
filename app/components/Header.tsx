@@ -17,7 +17,7 @@ const NAV_LINKS: Array<LinkType> = [
   { text: 'Experience', slug: '/experience', type: 'link' },
   { text: 'Projects', slug: '/projects', type: 'link' },
   { text: 'Contact', slug: '', type: 'mailto' },
-  { text: 'Resume', slug: '/resume.pdf', type: 'button' },
+  { text: 'Resume', slug: '/resume-giorgio-torre.pdf', type: 'button' },
 ];
 
 const Header = () => {
