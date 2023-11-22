@@ -1185,10 +1185,6 @@ video {
     position: static;
   }
 
-  .lg\:relative {
-    position: relative;
-  }
-
   .lg\:mb-0 {
     margin-bottom: 0px;
   }

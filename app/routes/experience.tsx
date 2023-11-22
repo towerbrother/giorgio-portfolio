@@ -16,9 +16,9 @@ export const meta: MetaFunction = () => {
 
 const EXPERIENCE_TABS: TabType[] = [
   {
-    displayName: 'Tenhil',
+    displayName: 'Software Developer',
     content: {
-      heading: 'Software Developer',
+      heading: 'Tenhil',
       subheading: 'January 2023 - Present',
       bullets: [
         'During my tenure at Tenhil, the parent company of stellenanzeigen.de, I assumed a pivotal role within a newly-formed team entrusted with the ground-up development of a transformative project. The objective was to create a versatile platform capable of constructing multiple portals using a unified code base and a shared CMS system. This initiative aimed not only to manage content efficiently but also to facilitate distinct theming for each portal. I actively participated in the initial discussions to define our tech stack and the project architecture.',
@@ -28,10 +28,10 @@ const EXPERIENCE_TABS: TabType[] = [
     },
   },
   {
-    displayName: 'stellenanzeigen.de',
+    displayName: 'Junior Software Developer',
     content: {
-      heading: 'Junior Software Developer',
-      subheading: 'June 2021 - December 2022',
+      heading: 'stellenanzeigen.de',
+      subheading: 'September 2021 - December 2022',
       bullets: [
         'Embarking on my career journey, I began as a junior software developer at stellenanzeigen.de, marking my initiation into the world of web development. Joining the core team responsible for the legacy website, coded in C# using the .NET Core framework with jQuery as the scripting language. I had never programmed in C#, nor in jQuery, so I had to quickly familiarise myself with these programming languages and their usage in a professional setting.',
         'Within the dynamic environment of the core team, I navigated the nuances of agile methodology in real-world scenarios. Embracing practices like Scrum processes, sprints, code reviews, and pull requests, I gained firsthand experience in agile development. My initial responsibilities included familiarising myself with the existing code base, addressing minor bugs, and gradually progressing to working on full-fledged features.',
@@ -40,9 +40,19 @@ const EXPERIENCE_TABS: TabType[] = [
     },
   },
   {
-    displayName: 'Bombardier',
+    displayName: 'Freelancer Software Developer',
     content: {
-      heading: 'Project Commercial Manager',
+      heading: 'stellenanzeigen.de',
+      subheading: 'December 2020 - August 2021',
+      bullets: [
+        "I began as a remote freelancer, where I tackled bugs, handled responsive design, supported the core team, and delved deep into the company's operations, paving the way for my eventual full-time employment.",
+      ],
+    },
+  },
+  {
+    displayName: 'Project Commercial Manager',
+    content: {
+      heading: 'Bombardier Transportation UK (later Alstom)',
       subheading: 'September 2016 - May 2021',
       bullets: [
         'Serving as the Project Commercial Manager for a transportation company, I effectively oversaw three distinct projects spanning multiple railway depots. My responsibilities included the management of maintenance contracts with substantial financial implications, ensuring both operational efficiency and cost-effectiveness.',
