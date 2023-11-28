@@ -19,7 +19,7 @@ const NAV_LINKS: Array<LinkType> = [
   { text: 'Contact', slug: '', type: 'mailto' },
   {
     text: 'Resume',
-    slug: '/giorgio-torre-standard-resume.pdf',
+    slug: '/Giorgio_Torre_Resume.pdf',
     type: 'button',
   },
 ];
