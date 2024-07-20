@@ -1,26 +1,26 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-import Navbar from '~/components/Navbar';
-import Sidebar from '~/components/Sidebar';
+import Navbar from "~/components/Navbar";
+import Sidebar from "~/components/Sidebar";
 
 export type LinkType = {
   text: string;
   slug: string;
-  type: 'link' | 'button' | 'mailto';
+  type: "link" | "button" | "mailto";
 };
 
 export const HEADER_HEIGHT = 16;
 
 const NAV_LINKS: Array<LinkType> = [
-  { text: 'Home', slug: '/', type: 'link' },
-  { text: 'About', slug: '/about', type: 'link' },
-  { text: 'Experience', slug: '/experience', type: 'link' },
-  { text: 'Projects', slug: '/projects', type: 'link' },
-  { text: 'Contact', slug: '', type: 'mailto' },
+  { text: "Home", slug: "/", type: "link" },
+  { text: "About", slug: "/about", type: "link" },
+  { text: "Experience", slug: "/experience", type: "link" },
+  { text: "Projects", slug: "/projects", type: "link" },
+  { text: "Contact", slug: "", type: "mailto" },
   {
-    text: 'Resume',
-    slug: '/Giorgio_Torre_Resume.pdf',
-    type: 'button',
+    text: "Resume",
+    slug: "/Giorgio_Torre_Resume_July_2024.pdf",
+    type: "button",
   },
 ];
 
