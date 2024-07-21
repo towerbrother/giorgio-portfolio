@@ -961,6 +961,10 @@ video {
   font-weight: 600;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
 .text-light-gray {
   --tw-text-opacity: 1;
   color: rgb(146 153 173 / var(--tw-text-opacity));

@@ -20,10 +20,20 @@ const EXPERIENCE_TABS: TabType[] = [
     content: {
       heading: "ORBIT Digital",
       subheading: "May 2024 - Present",
+      skills: [
+        "TypeScript",
+        "Nuxt3",
+        "NestJS, TailwindCSS",
+        "Communication",
+        "Leadership",
+        "Customer Relations",
+        "Teamwork",
+        "Ownership",
+      ],
       bullets: [
-        "I am a trusted member of the business building and innovation unit, working into an interdisciplinary team aimed at delivering performant and reliable digital products that actually work.",
-        "I am contributing to multiple products development, by bringing in my technical expertise, project ownership and my well tuned communication skills. Ensuring not only fast feature delivery, but also great customer experience for long lasting relationships.",
-        "ORBIT innovates and disrupt at his core, that is why it is vital for us member of the Tech Tribe to keep ourselves up to date with industry standard and innovation.",
+        "I am a trusted member of the business building and innovation unit, working into interdisciplinary teams aimed at delivering performant and reliable digital products that actually work.",
+        "I closely work with solution architects, product experts and designer contributing to the development of multiple products. I bring my technical expertise, project ownership and my well tuned communication skills, ensuring not only fast features delivery, but also great customer experience for long lasting relationships.",
+        "ORBIT innovates and disrupt at his core, that is why it is vital for me, as member of the Tech Tribe, to always keep myself up to date with industry standards and innovation.",
       ],
     },
   },
@@ -32,6 +42,18 @@ const EXPERIENCE_TABS: TabType[] = [
     content: {
       heading: "Tenhil",
       subheading: "January 2023 - April 2023",
+      skills: [
+        "TypeScript",
+        "NextJS",
+        "Redux",
+        "Styled Components",
+        "C#",
+        ".NET 7",
+        "Communication",
+        "Leadership",
+        "Teamwork",
+        "Ownership",
+      ],
       bullets: [
         "During my tenure at Tenhil, the parent company of stellenanzeigen.de, I assumed a pivotal role within a newly-formed team entrusted with the ground-up development of a transformative project. The objective was to create a versatile platform capable of constructing multiple portals using a unified code base and a shared headless CMS system. This initiative aimed not only to manage content efficiently but also to facilitate distinct theming for each portal.",
         "My contribution to the team was diverse and impactful. Assuming a lead role in decision-making, I helped define the solution architecture, I established coding standards and ensured that high-quality code was consistently produced. Despite joining as a frontend developer, I leveraged my C# proficiency to assist the backend team, boosting our overall development velocity. Building a strong rapport with the project PO, I facilitated direct communication between management and developers, fostering a collaborative and efficient work environment.",
@@ -44,6 +66,7 @@ const EXPERIENCE_TABS: TabType[] = [
     content: {
       heading: "stellenanzeigen.de",
       subheading: "September 2021 - December 2022",
+      skills: ["C#", ".NET Core", "jQuery", "Less", "Teamwork"],
       bullets: [
         "Embarking on my career journey, I began as a junior software developer at stellenanzeigen.de, marking my initiation into the world of web development. Joining the core team responsible for the legacy website, coded in C# using the .NET Core framework with jQuery.",
         "Within the dynamic environment of the core team, I navigated the nuances of agile methodology in real-world scenarios. Embracing practices like Scrum processes, sprints, code reviews, and pull requests, I gained firsthand experience in agile development.",
@@ -57,6 +80,7 @@ const EXPERIENCE_TABS: TabType[] = [
     content: {
       heading: "stellenanzeigen.de",
       subheading: "December 2020 - August 2021",
+      skills: ["C#", ".NET Core", "jQuery", "Less", "Teamwork"],
       bullets: [
         "I began as a remote freelancer, mostly tackling bugs, improving responsive design, supported the core team by building few features.",
         "Meanwhile, I delved deep into the company's operations, paving the way for my eventual full-time employment.",
@@ -68,6 +92,14 @@ const EXPERIENCE_TABS: TabType[] = [
     content: {
       heading: "Bombardier Transportation UK (later Alstom)",
       subheading: "September 2016 - May 2021",
+      skills: [
+        "Communication",
+        "Customer Relations",
+        "Teamwork",
+        "Commercial Management",
+        "Project Management",
+        "Ownership",
+      ],
       bullets: [
         "Serving as the Project Commercial Manager for a transportation company, I effectively oversaw three distinct projects spanning multiple railway depots. My responsibilities included the management of maintenance contracts with substantial financial implications, ensuring both operational efficiency and cost-effectiveness.",
         "Taking charge of negotiations and contract drafting, I successfully navigated the complexities of additional maintenance tasks. Whether initiated by my team or arising from requests by the customer (train operator), I orchestrated agreements that safeguarded the integrity of the project and protected the company's interests.",
