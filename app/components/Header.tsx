@@ -19,7 +19,7 @@ const NAV_LINKS: Array<LinkType> = [
   { text: "Contact", slug: "", type: "mailto" },
   {
     text: "Resume",
-    slug: "/Giorgio_Torre_Resume_July_2024.pdf",
+    slug: "/Giorgio_Torre_Resume_07_2024.pdf",
     type: "button",
   },
 ];

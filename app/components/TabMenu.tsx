@@ -11,7 +11,7 @@ import { Link } from "@remix-run/react";
 type ContentType = {
   heading: string;
   subheading: string;
-  skills: string[];
+  skills?: string[];
   bullets: string[];
   imageUrl?: string;
   links?: Array<{
@@ -81,12 +81,14 @@ const Content = ({
     <h5 className="text-left text-sm md:text-md text-secondary font-semibold">
       {subheading}
     </h5>
-    <h4 className="text-left text-md md:text-lg mt-2 text-shade-white font-semibold">
-      Skills:{" "}
-      <span className="text-left text-sm md:text-md text-shade-white font-thin">
-        {skills.join(", ")}
-      </span>
-    </h4>
+    {skills && skills.length > 0 && (
+      <h4 className="text-left text-md md:text-lg mt-2 text-shade-white font-semibold">
+        Skills:{" "}
+        <span className="text-left text-sm md:text-md text-shade-white font-thin">
+          {skills.join(", ")}
+        </span>
+      </h4>
+    )}
     {!imageUrl ? (
       <ul className="text-light-gray text-md md:text-lg mt-2">
         {bullets.map((bullet, idx) => (
