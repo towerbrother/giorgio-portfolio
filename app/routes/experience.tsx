@@ -41,7 +41,7 @@ const EXPERIENCE_TABS: TabType[] = [
     displayName: "Software Developer",
     content: {
       heading: "Tenhil",
-      subheading: "January 2023 - April 2023",
+      subheading: "July 2022 - April 2023",
       skills: [
         "TypeScript",
         "NextJS",
@@ -65,7 +65,7 @@ const EXPERIENCE_TABS: TabType[] = [
     displayName: "Junior Software Developer",
     content: {
       heading: "stellenanzeigen.de",
-      subheading: "September 2021 - December 2022",
+      subheading: "September 2021 - June 2022",
       skills: ["C#", ".NET Core", "jQuery", "Less", "Teamwork"],
       bullets: [
         "Embarking on my career journey, I began as a junior software developer at stellenanzeigen.de, marking my initiation into the world of web development. Joining the core team responsible for the legacy website, coded in C# using the .NET Core framework with jQuery.",
